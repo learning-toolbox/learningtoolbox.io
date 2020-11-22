@@ -1,8 +1,8 @@
 {
-	"name": "chrisshank.com",
+	"name": "learningtoolbox.io",
 	"version": "1.0.0",
-	"description": "Personal Website",
-	"repository": "https://github.com/ChrisShank/chrisshank.com.git",
+	"description": "Website for the Learning Toolbox",
+	"repository": "https://github.com/learning-toolbox/learningtoolbox.io.git",
 	"author": "chrisshank <chris.shank.23@gmail.com>",
 	"private": true,
 	"scripts": {
@@ -14,7 +14,7 @@
 		"autoprefixer": "^9.8.0",
 		"markdown-it-attrs": "^3.0.3",
 		"markdown-it-footnote": "^3.0.2",
-		"tailwindcss": "compat",
+		"tailwindcss": "npm:@tailwindcss/postcss7-compat",
 		"vitepress": "^0.8.0"
 	}
 }

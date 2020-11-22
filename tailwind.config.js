@@ -2,8 +2,8 @@ const plugin = require('tailwindcss/plugin')
 
 const variableFontWeightPlugin = plugin(({ addUtilities }) => {
 	const fontWeights = [
-		'.font-hairline',
 		'.font-thin',
+		'.font-extralight',
 		'.font-light',
 		'.font-normal',
 		'.font-medium',
@@ -21,7 +21,8 @@ const variableFontWeightPlugin = plugin(({ addUtilities }) => {
 
 module.exports = {
 	purge: [
-    './src/**/*.{md,vue}',
+    './src/**/*.md',
+    './src/.vitepress/theme/**/*.vue',
   ],
 	corePlugins: {
 		fontWeight: false,
